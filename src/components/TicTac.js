@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./style.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default function TicTac() {
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [xIsNext, setXIsNext] = useState(true);
