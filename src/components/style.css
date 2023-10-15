@@ -1,0 +1,52 @@
+/* TicTac.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* h1 {
+    text-align: center;
+    font-size: 24px;
+  } */
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* .cell:hover {
+    background-color: #ccc;
+  }
+   */
+  /* #winner {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+  } */
+  
+  /* #reset {
+    display: block;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+  } */
+  
